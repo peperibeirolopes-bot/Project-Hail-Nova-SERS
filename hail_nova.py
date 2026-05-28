@@ -220,7 +220,7 @@ def main():
 
         sensores = gerar_sensores()
         evento = gerar_evento()
-        sensores = aplicar_evento(sensores, evento)  # evento primeiro!
+        sensores = aplicar_evento(sensores, evento)
 
         exibir_painel(sensores)
         exibir_evento(evento)
