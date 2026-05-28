@@ -16,7 +16,7 @@ def gerar_sensores():
 
 
 def gerar_evento():
-    """Sorteia um evento aleatório com pesos."""
+
     return random.choices(
         ["Nenhum", "Tempestade solar", "Meteoro pequeno", "Falha no motor"],
         weights=[60, 20, 12, 8]
